@@ -1,0 +1,20 @@
+# Assignment Rule: Do not push training data or base models
+data/
+**/data/
+*.jsonl
+!predictions_test.jsonl
+!candidate_pack/predictions_test.jsonl
+
+# Python cache & checkpoint files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+outputs/
+*.log
+
+# IDE & system artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
